@@ -107,8 +107,10 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav accordion" id="accordionSidenav">
                             <div class="sb-sidenav-menu-heading">Core</div>
-                            <a class="nav-link" href="index.html"
-                                ><div class="sb-nav-link-icon"><i data-feather="activity"></i></div>
+                            <a class="nav-link active" href="index.html"
+                                ><div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i>
+
+                                </div>
                                 Dashboard</a
                             >
                             <div class="sb-sidenav-menu-heading">Interface</div>

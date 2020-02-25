@@ -21,4 +21,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/test','AdminController@create');
 
-Route::get('/test','AdminController@create');
+

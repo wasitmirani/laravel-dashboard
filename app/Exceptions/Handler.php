@@ -55,6 +55,9 @@ class Handler extends ExceptionHandler
             if($code=='404'){
                 return response()->view('404.index');
             }
+            if($code=='419'){
+                return response()->view('419.419');
+            }
         }
         return parent::render($request, $e);
     }
